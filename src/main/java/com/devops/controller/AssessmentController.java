@@ -12,4 +12,9 @@ public class AssessmentController {
     public String getAssessment (){
         return "This is my first Assessment";
     }
+
+    @GetMapping("hello")
+    public String Hello(){
+        return "Hello Worlds";
+    }
 }
